@@ -1,0 +1,18 @@
+# 잘못된 변경 되돌리기 (Reset / Revert)
+
+* 실수한 커밋을 되돌리고 싶다
+
+```bash
+git checkout <file>
+git reset --hard HEAD~1
+git revert <commit-hash>
+```
+
+* reset
+
+![012](image/012.webp)
+
+* revert
+
+![013](image/013.png)
+
